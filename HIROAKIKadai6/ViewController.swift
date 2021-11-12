@@ -15,9 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func validationButton(_ sender: Any) {
-        
+    @IBAction private func validationButton(_ sender: Any) {
+
     }
-
 }
-
