@@ -10,12 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var themesLabel: UILabel!
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func validationButton(_ sender: Any) {
+        
+    }
 
 }
 
