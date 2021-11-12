@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet private weak var themesLabel: UILabel!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

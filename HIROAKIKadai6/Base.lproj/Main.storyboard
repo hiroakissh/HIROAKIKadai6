@@ -72,6 +72,9 @@
                             <constraint firstItem="4b3-L0-div" firstAttribute="top" secondItem="ane-CM-5RE" secondAttribute="bottom" constant="6" id="s28-R7-PRx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="themesLabel" destination="scb-Pn-2wz" id="WGs-Cg-3TG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
