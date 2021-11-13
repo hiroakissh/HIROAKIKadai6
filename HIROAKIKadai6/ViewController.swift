@@ -15,7 +15,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        themesLabel.text = String(arc4random_uniform(100))
+        themesNumber = Int(arc4random_uniform(100))
+        themesLabel.text = String(themesNumber)
     }
 
     @IBAction private func validationButton(_ sender: Any) {
