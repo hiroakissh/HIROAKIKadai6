@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func validationButton(_ sender: Any) {
-        let validationNumber = Int(numberSlider.value)
+        validationNumber = Int(numberSlider.value)
         if validationNumber == themesNumber {
 
         } else {
