@@ -76,6 +76,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="numberSlider" destination="ane-CM-5RE" id="LRy-Xn-UdS"/>
                         <outlet property="themesLabel" destination="scb-Pn-2wz" id="WGs-Cg-3TG"/>
                     </connections>
                 </viewController>
