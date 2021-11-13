@@ -24,8 +24,10 @@ class ViewController: UIViewController {
         validationNumber = Int(numberSlider.value)
         if validationNumber == themesNumber {
             presentAlert(message: "あたり！")
+            return
         } else {
             presentAlert(message: "はずれ！")
+            return
         }
     }
     private func presentAlert(message: String) {
