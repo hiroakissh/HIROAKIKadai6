@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        themesNumber = Int(arc4random_uniform(100))
+        themesNumber = Int.random(in: 1..<101)
         themesLabel.text = String(themesNumber)
     }
 
