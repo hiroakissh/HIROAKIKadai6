@@ -23,15 +23,15 @@ class ViewController: UIViewController {
     @IBAction private func validationButton(_ sender: Any) {
         validationNumber = Int(numberSlider.value)
         if validationNumber == themesNumber {
-
+            presentAlert(message: "あたり！")
         } else {
-
+            presentAlert(message: "はずれ！")
         }
     }
     private func presentAlert(message: String) {
         let alert = UIAlertController(
-            title: "",
-            message: message,
+            title: "結果",
+            message: "\(message)\nあなたの値：\(validationNumber)",
             preferredStyle: .alert)
 
         let okAction = UIAlertAction(
