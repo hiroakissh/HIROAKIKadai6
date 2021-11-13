@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var numberSlider: UISlider!
 
     private var themesNumber: Int = 0
+    private var validationNumber: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
