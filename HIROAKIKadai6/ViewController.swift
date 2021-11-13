@@ -13,10 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        themesLabel.text = String(arc4random_uniform(100))
     }
 
     @IBAction private func validationButton(_ sender: Any) {
-
+        
     }
 }
