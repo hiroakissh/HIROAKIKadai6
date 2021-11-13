@@ -17,6 +17,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func validationButton(_ sender: Any) {
-        
+
     }
 }
