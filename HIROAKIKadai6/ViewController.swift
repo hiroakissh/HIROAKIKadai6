@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             preferredStyle: .alert)
 
         let okAction = UIAlertAction(
-            title: "",
+            title: "再挑戦",
             style: .default)
 
         alert.addAction(okAction)
