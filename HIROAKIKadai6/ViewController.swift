@@ -36,7 +36,8 @@ class ViewController: UIViewController {
 
         let okAction = UIAlertAction(
             title: "再挑戦",
-            style: .default)
+            style: .default,
+            handler: { _ in self.viewDidLoad()})
 
         alert.addAction(okAction)
         present(alert, animated: true, completion: nil)
