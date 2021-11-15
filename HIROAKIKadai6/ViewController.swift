@@ -16,8 +16,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        themesNumber = Int.random(in: 1..<101)
-        themesLabel.text = String(themesNumber)
+        resetGame()
     }
 
     @IBAction private func validationButton(_ sender: Any) {
@@ -37,9 +36,14 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(
             title: "再挑戦",
             style: .default,
-            handler: { _ in self.viewDidLoad()})
+            handler: { [weak self] _ in self?.resetGame()})
 
         alert.addAction(okAction)
         present(alert, animated: true, completion: nil)
+    }
+
+    private func resetGame() {
+        themesNumber = Int.random(in: 1...100)
+        themesLabel.text = String(themesNumber)
     }
 }
